@@ -39,10 +39,6 @@ success() {
     echo -e "${GREEN}[SUCCESS] $1${NC}"
 }
 
-info "Changing default DNS settings..."
-echo "$DNS_SERVERS" >/etc/resolv.conf
-success "Default DNS settings changed successfully."
-
 info "Installing resolvconf service..."
 if [ "$PACKAGE_MANAGER" = "apt" ]; then
     apt install -y resolvconf >/dev/null 2>&1
