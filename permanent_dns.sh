@@ -1,9 +1,9 @@
 #!/bin/bash
 
-DNS_SERVERS="208.67.222.222
+DNS_SERVERS="1.1.1.1
+127.0.0.53
 8.8.8.8
 8.8.4.4
-1.1.1.1
 9.9.9.10"
 
 if command -v apt >/dev/null 2>&1; then
