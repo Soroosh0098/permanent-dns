@@ -19,7 +19,11 @@ For users in regions with restricted internet access, such as Iran, changing DNS
 - Verify and ensure persistence of DNS settings.
 
 ## Usage
+To execute the script directly on your server, run the following command:
 
+```bash
+curl -sL https://raw.githubusercontent.com/Soroosh0098/dns-config-script/main/permanent_dns.sh | sudo bash
+```
 Clone the repository and run the script with root privileges. Refer to the README for detailed instructions.
 
 ## Contributing
